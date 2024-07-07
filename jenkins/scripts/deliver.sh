@@ -25,4 +25,5 @@ echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 echo 'fropm directory.'
 pwd
 set -x
-java -jar target/${NAME}-${VERSION}.jar
+#java -jar target/${NAME}-${VERSION}.jar
+java -jar target/my-app-1.0-SNAPSHOT.jar
